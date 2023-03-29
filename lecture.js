@@ -5,9 +5,13 @@ Make sure to code-along during lecture.
 
 
 // 1. Link the script.js file from the HTML
+let myNumber = 3;
+
+myNumber = "this is a sentence"
+alert(myNumber)
 
 // 2. Console Log + Comments + Reserved Words + Camel Case + Naming Convention
-
+console.log(myNumber)
 // 3. Creating Variables + Data Types
 
 // 4. Creating Functions (+ Event Listeners?)
