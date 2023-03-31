@@ -8,7 +8,7 @@ Make sure to code-along during lecture.
 let myNumber = 3;
 
 myNumber = "this is a sentence"
-alert(myNumber)
+// alert(myNumber)
 
 // 2. Console Log + Comments + Reserved Words + Camel Case + Naming Convention
 console.log(myNumber)
