@@ -50,3 +50,27 @@ console.log("Lesson 2");
 console.log(doubleNumber(12)); 
 console.log(squareNumber(12));
 console.log(pro(2,8));
+
+/*
+========== LESSON 3 - NUMBERS ==========
+*/
+// 1. Create a sumOfThree function statement that takes in 3 number parameter and returns sum.
+
+const sumOfThree = (a, b, c) => a + b + c;
+console.log(sumOfThree(2, 5, 9));
+// 2. Create a productofThree function expression that takes in 3 number parameter and returns the quotient.
+const quotientofThree = (a, b, c) => a / b / c;
+console.log(quotientofThree(2, 5, 9));
+// 3. Create a getRemainder arrow function that takes in 2 number parameters and returns the remainder of the first number divided by the second number
+const getRemainder = (a, b) => a % b;
+console.log(getRemainder(6, 2));
+// 4. Create a getRootRounded function that takes in 1 number, and returns the absolute value's square root, rounded up. Note: negative numbers should have their absolute value taken to still work.
+let getRootRounded = (a) => Math.ceil(Math.sqrt(Math.abs(a)));
+console.log(getRootRounded(3));
+// 5. Create a getRandom function that returns a random number from 1-100.
+const getRandom = Math.ceil(Math.random()*100);
+console.log(getRandom);
+
+
+
+
