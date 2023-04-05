@@ -86,12 +86,12 @@ function sayFirstAndLast(a) {
 sayFirstAndLast("howard");
 // 3. Create a yellFruitNum arrow function that takes in 1 number parameter, 1 String that is a fruit parameter, and console logs the sentence "I have [number] [FRUIT]" in all caps.
 function yellFruitNum(num, word){
-    console.log(`I have ${num} ${word}`);
+    console.log(`I have ${num} ${word.toUpperCase()}`);
 }
 yellFruitNum(5, "banana")
 // 4. Create a sliceFruit function that takes in a String of a fruit and console logs everything except the first 2 letters.
 function sliceFruit(fruit){
-    console.log(fruit.slice(1));
+    console.log(fruit.slice(2));
 }
 sliceFruit("pears");
 // 5. Create a splitFruit function that takes in a String of a fruit and returns an array of the letters split into each index of the array.
